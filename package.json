@@ -1,0 +1,34 @@
+{
+  "name": "react-electron-template",
+  "version": "1.0.0",
+  "description": "My React Electron Template",
+  "main": "dist/main.js",
+  "author": "yamachu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "start": "electron --remote-debugging-port=9222 dist/main.js",
+    "lint": "tslint src/**/*.ts"
+  },
+  "dependencies": {
+    "electron": "^2.0.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-observable": "^0.18.0",
+    "rxjs": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
